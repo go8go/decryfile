@@ -8,7 +8,7 @@ int main()
     unsigned char textEncry[4096] = { 0 };
     int textALen = 0;
     int textEncryLen = 0;
-    readFile = fopen("C:\\Users\\sky\\Desktop\\我的视频.mp4", "rb");         // windows系统上的格式
+    readFile = fopen("E:\\aliyun_download\\我的视频--encry.mp4", "rb");         // windows系统上的格式
     //readFile = fopen("/home/hi/my-document/azx/text-encry.pdf", "rb");     // linux系统上的格式
     if (readFile == NULL)
     {
@@ -17,7 +17,7 @@ int main()
         return -1;
     }
 
-    writeFile = fopen("C:\\Users\\sky\\Desktop\\我的视频--encry.mp4", "wb");    // windows系统上的格式
+    writeFile = fopen("E:\\aliyun_download\\我的视频--encry_done.mp4", "wb");    // windows系统上的格式
     //writeFile = fopen("/home/hi/my-document/azx/text-decry.pdf", "wb");       //linux系统上的格式
     if (writeFile == NULL)
     {
