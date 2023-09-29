@@ -5,4 +5,4 @@ project(hello-world LANGUAGES CXX)
 add_executable(
     ${PROJECT_NAME}
     decry.cpp
-}
+）
